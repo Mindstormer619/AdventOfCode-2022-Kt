@@ -1,7 +1,5 @@
 import kotlin.math.abs
 
-typealias Coordinate = Pair<Int, Int>
-
 class Day09(filename: String) {
 	private val instructions: List<Instruction>
 

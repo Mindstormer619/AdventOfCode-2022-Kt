@@ -11,3 +11,5 @@ infix fun IntRange.contains(other: IntRange) =
 
 infix fun IntRange.overlaps(other: IntRange) =
 	this.last >= other.first && other.last >= this.first
+
+typealias Coordinate = Pair<Int, Int>
